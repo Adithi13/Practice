@@ -11,8 +11,8 @@ function calculateMaturityAmount(){
     
     // return the result
     // return maturityAmount;
-    document.getElementById('result').innerText = 'Maturity Amount: ₹{maturityAmount.toFixed(2)}';
+    document.getElementById('result').innerText = `Maturity Amount: ₹${maturityAmount.toFixed(2)}`;
 }
 
 //attach the event listener to calulate button
-document.getElementById('calculateBtn').addEventListener('click', calculateMaturityAmount);
+document.getElementById('caculateBtn').addEventListener('click', calculateMaturityAmount);
